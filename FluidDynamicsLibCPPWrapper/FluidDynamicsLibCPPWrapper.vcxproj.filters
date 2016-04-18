@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MAIN">
+      <UniqueIdentifier>{9384a78d-7cbb-41b0-973f-b48613e97f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\num_methods_inc">
+      <UniqueIdentifier>{f13fd708-02e1-4755-a0e5-5d53105e4fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\num_methods_src">
+      <UniqueIdentifier>{477631ec-6325-4f3d-af01-d7a24b93697f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\num_methods_inc\lin_alg_inc">
+      <UniqueIdentifier>{a4ced19c-6514-4fd8-8873-b169b1f84ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\num_methods_src\lin_alg_src">
+      <UniqueIdentifier>{fe24df9c-5645-48fd-a2e0-32e38694e71c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F77_lin_alg_defs.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_alg.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_alg_chol_r.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="fdlibcppwrapper_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatDistributionWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_alg_det_hess_l.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="lin_alg_impl.cpp">
+      <Filter>Source Files\num_methods_src\lin_alg_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lin_alg_chol_r.cpp">
+      <Filter>Source Files\num_methods_src\lin_alg_src</Filter>
+    </ClCompile>
+    <ClCompile Include="fdlibcppwrapper_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lin_alg_det_hess_l.cpp">
+      <Filter>Source Files\num_methods_src\lin_alg_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StatDistributionWrapper.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="lin_alg_chol_r.inl">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </None>
+    <None Include="lin_alg.inl">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
