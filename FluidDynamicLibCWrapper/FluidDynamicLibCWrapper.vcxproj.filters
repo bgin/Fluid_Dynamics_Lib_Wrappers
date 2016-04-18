@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MAIN">
+      <UniqueIdentifier>{47460e69-90a2-4874-81af-e6ef079d3a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\num_methods_src">
+      <UniqueIdentifier>{0b53a8f9-1b2d-4cdf-8807-517e3da329ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\num_methods_inc">
+      <UniqueIdentifier>{07cb8e7f-6341-4169-86b1-a272b41d7774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\num_methods_inc\lin_alg_inc">
+      <UniqueIdentifier>{4a805511-a869-49aa-a76a-e5d8e1a3dd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\num_methods_src\lin_alg_src">
+      <UniqueIdentifier>{051846be-9877-4172-8006-7f8976f12a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\num_methods_inc\num_comp_inc">
+      <UniqueIdentifier>{5f004f77-7f1f-4f97-956f-d6fe19f163c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\num_methods_src\num_comp_src">
+      <UniqueIdentifier>{146f06c7-f296-4945-8f7a-9e0e261895c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FDLIBWrapperTestsSrc">
+      <UniqueIdentifier>{c08fde4a-089e-46b4-84ed-1264a83024dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FDLIBWrapperTestsInc">
+      <UniqueIdentifier>{39793931-32fe-499b-86fb-58b77d90e37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FDLIBWrapperTestsSrc\num_methods_tests_src">
+      <UniqueIdentifier>{edc49682-eb46-4ddf-a88f-d871408354ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FDLIBWrapperTestsInc\num_methods_tests_inc">
+      <UniqueIdentifier>{da6d5d3e-91ed-435a-8050-6cc44ba60e85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="lin_alg_imp.cpp">
+      <Filter>Source Files\num_methods_src\lin_alg_src</Filter>
+    </ClCompile>
+    <ClCompile Include="NumMethodsTests.cpp">
+      <Filter>Source Files\FDLIBWrapperTestsSrc\num_methods_tests_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="linear_algebra.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_alg_imp.h">
+      <Filter>Header Files\num_methods_inc\lin_alg_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumMethodsTests.h">
+      <Filter>Header Files\FDLIBWrapperTestsInc\num_methods_tests_inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
